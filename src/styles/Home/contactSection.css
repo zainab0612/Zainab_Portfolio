@@ -57,9 +57,12 @@
 .contact-text {
   @apply text-white text-opacity-50 hover:text-opacity-100 duration-200 text-sm 2xl:text-base;
 }
+.contact-button {
+  @apply bg-transparent border-[1px] border-primary text-white py-2 px-4 hover:bg-primary hover:bg-opacity-50 hover:duration-500 transition-transform transform hover:scale-105;
+}
 
 .quote-section {
-  @apply w-full flex justify-center items-center bg-secondary pb-10;
+  @apply w-full flex justify-center items-center bg-secondary pb-10 pt-10 md:pt-0;
 }
 
 .quote-image {

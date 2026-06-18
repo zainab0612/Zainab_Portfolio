@@ -11,7 +11,7 @@ export const ProjectSection = () => {
             <div className="project-section">
                 <div className="project-heading">
                     <h1 className="project-title">
-                        <span className="text-primary">#</span>projects
+                        <span className="text-primary">#</span>personal projects
                     </h1>
                     <div className="project-line"></div>
                 </div>
@@ -34,14 +34,29 @@ export const ProjectSection = () => {
                     </div>
 
                     <div className="project-card">
-                        <Image src={a2z} alt="group" className="project-image" />
-                        <div className="project-stack">HTML CSS</div>
+                        <Image src={a2z} alt="A2Z Techverse Admin Portal" className="project-image" />
+
+                        <div className="project-stack">
+                            Next.js Tailwind CSS Shadcn/ui
+                        </div>
+
                         <div className="project-content">
-                            <h1 className="project-name">A2Z Techverse</h1>
-                            <p className="project-description">A2Z Techverse is IT Software Agency</p>
+                            <h1 className="project-name">A2Z Techverse Admin Portal</h1>
+
+                            <p className="project-description">
+                                A full-stack admin dashboard for managing agency operations,
+                                content, and business workflows with a responsive interface.
+                            </p>
+
                             <div className="project-button-wrapper">
-                                <a href="https://zainab0612.github.io/BQ-Assignment-II/" target="_blank">
-                                    <button className="project-button">Live</button>
+                                <a
+                                    href="https://a2z-techverse-admin-portal.vercel.app/dashboard"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <button className="project-button">
+                                        Live
+                                    </button>
                                 </a>
                             </div>
                         </div>
@@ -51,7 +66,7 @@ export const ProjectSection = () => {
                         <Image src={foodpanda} alt="group" className="project-image" />
                         <div className="project-stack">HTML CSS</div>
                         <div className="project-content">
-                            <h1 className="project-name">Foodpanda-Clone</h1>
+                            <h1 className="project-name">Food Delivery Platform UI</h1>
                             <p className="project-description">
                                 A front-end replica of the Foodpanda website, highlighting homepage structure.
                             </p>

@@ -17,11 +17,11 @@ export const Footer = () => {
                         <div className="footer-logo-section">
                             <Image alt="Logo" src={LogoImg} className='p-2' />
                             <h1 className="footer-name">Zainab</h1>
-                            <a href="mailto:znaeem0612@gmail.com">
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=znaeem0612@gmail.com&su=Let's%20Connect">
                                 <p className="footer-email">znaeem0612@gmail.com</p>
                             </a>
                         </div>
-                        <div className="footer-title">Frontend Software Developer</div>
+                        <div className="footer-title">Frontend Developer | React.js | Next.js</div>
                     </div>
                     <div className='footer-media'>
                         <h2 className="footer-media-title">Media</h2>

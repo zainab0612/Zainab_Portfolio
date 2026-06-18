@@ -17,8 +17,8 @@ export const AboutSection = () => {
 
                     <div className="about-content">
                         <p className="about-paragraph">
-                            I’m an enthusiastic Front-end Developer. My passion lies in building user-centric, interactive, and dynamic web applications that not only look great but solve real-world problems.<br /><br />
-                            I’m always open to exciting opportunities and am eager to make a meaningful impact in the world of frontend development.
+                            I’m a Frontend Developer passionate about building responsive, scalable, and user-centric web applications. With hands-on experience in developing production-ready websites, enterprise dashboards, and admin portals, I focus on creating clean, reusable, and high-performance user interfaces.<br /><br />
+                            I enjoy solving real-world problems through modern web technologies and continuously improving my skills to build impactful digital experiences.
                         </p>
                         <div className="about-button-wrapper">
                             <button className="about-button">Read more &gt;</button>

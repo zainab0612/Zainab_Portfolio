@@ -23,8 +23,8 @@ export const Header = () => {
     const navigation: NavigationItem[] = [
         { name: 'home', href: '/' },
         { name: 'work', href: '/work' },
-        { name: 'about-me', href: '/about-me' },
-        { name: 'contacts', href: '/contacts' },
+        { name: 'about-me', href: '/about' },
+        { name: 'contacts', href: '/contact' },
     ];
     const handleLinkClick = () => {
         setMenuOpen(false);

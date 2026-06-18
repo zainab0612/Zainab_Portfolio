@@ -23,7 +23,7 @@
 }
 
 .intro-button-wrapper {
-  @apply flex;
+  @apply flex gap-2 flex-wrap;
 }
 
 .intro-button {

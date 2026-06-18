@@ -1,0 +1,59 @@
+.experience-section {
+  @apply w-full flex flex-col p-10 lg:px-10 xl:px-0 text-white gap-10;
+}
+
+.experience-heading {
+  @apply flex items-center gap-4;
+}
+
+.experience-title {
+  @apply text-xl md:text-4xl font-semibold lg:leading-[3rem] text-white tracking-wide;
+}
+
+.text-primary {
+  @apply text-[#c778dd];
+}
+
+.experience-line {
+  @apply w-[60%] h-[2px] bg-[#c778dd];
+}
+
+.experience-card {
+  @apply border border-[#abb2bf] p-[30px] bg-transparent;
+}
+
+.experience-top {
+  @apply flex flex-col md:flex-row gap-4 md:gap-0 md:justify-between md:items-center mb-3;
+}
+
+.experience-top h2 {
+  @apply text-white text-lg md:text-[28px] mb-[5px];
+}
+
+.experience-top h3 {
+  @apply text-[#abb2bf] text-[18px] font-normal;
+}
+
+.experience-date {
+  @apply text-white border border-[#c778dd] px-[14px] py-[8px] text-[14px];
+}
+
+.experience-location {
+  @apply text-[#abb2bf] mb-[25px];
+}
+
+.experience-tech {
+  @apply flex flex-wrap gap-3 mb-[30px];
+}
+
+.experience-tech span {
+  @apply border border-[#abb2bf] px-[15px] py-[8px] text-white text-[14px];
+}
+
+.experience-list {
+  @apply text-[#abb2bf] md:pl-[18px] text-sm md:text-base list-disc list-inside;
+}
+
+.experience-list li {
+  @apply mb-3 leading-[1.7];
+}

@@ -41,9 +41,15 @@ export const SkillSection = () => {
                             </div>
                         </div>
                         <div className="skills-box">
-                            <div className="skills-box-header">Other</div>
-                            <div className="skills-box-content">OOP</div>
+                            <div className="skills-box-header">Deployment</div>
+                            <div className="skills-box-content">
+                                Vercel<br />
+                                Netlify<br />
+                                Firebase<br />
+                                Docker
+                            </div>
                         </div>
+
                     </div>
 
                     <div className="skills-column skills-column-3">
@@ -53,14 +59,24 @@ export const SkillSection = () => {
                                 Git & Github<br />
                                 VS Code<br />
                                 Figma<br />
-                                Postman
+                                Postman<br />
+                                Material UI<br />
+                                Shadcn UI<br />
                             </div>
                         </div>
+
                         <div className="skills-box">
                             <div className="skills-box-header">Databases</div>
                             <div className="skills-box-content">
-                                SQL<br />MongoDB
+                                SQL<br />
+                                MongoDB
                             </div>
+                        </div>
+
+                        {/* New Deployment Card */}
+                        <div className="skills-box">
+                            <div className="skills-box-header">Other</div>
+                            <div className="skills-box-content">OOP</div>
                         </div>
                     </div>
                 </div>

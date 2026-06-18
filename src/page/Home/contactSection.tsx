@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import github from '../../../public/images/Github.svg'
+import linkedIn from '../../../public/images/Linkedin.svg'
 import email from '../../../public/images/Email.svg'
 import quote from '../../../public/images/quote (1).svg'
 import React from 'react'
@@ -19,8 +19,20 @@ export const ContactSection = () => {
 
                     <div className="contact-content">
                         <p className="contact-paragraph">
-                            I’m interested in freelance opportunities. However, if you have other requests or questions, don’t hesitate to contact me.
+                            Interested in frontend opportunities, collaborations, and building impactful digital products.
                         </p>
+                    </div>
+                    <div className="contact-button-wrapper">
+
+                        <a
+                            href="https://mail.google.com/mail/?view=cm&fs=1&to=znaeem0612@gmail.com&su=Let's%20Connect"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="contact-button"
+                        >
+                            Contact Me
+                        </a>
+
                     </div>
                 </div>
 
@@ -29,9 +41,9 @@ export const ContactSection = () => {
                         <div className="contact-card-title">Message me here</div>
 
                         <div className="contact-item">
-                            <a href="https://github.com/zainab0612" target="_blank" className="contact-link">
-                                <Image src={github} alt="Github" className="contact-icon" />
-                                <span className="contact-text">github.com/zainab0612</span>
+                            <a href="https://www.linkedin.com/in/zainab0612" target="_blank" className="contact-link">
+                                <Image src={linkedIn} alt='linkedIn' className="contact-icon" />
+                                <span className="contact-text">linkedin.com/in/zainab0612</span>
                             </a>
                         </div>
 
